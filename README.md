@@ -6,9 +6,16 @@ This is a function collection for the Bigcommerce development.
 
 ## how to use
 
-TODO npm install
-
 ````
+npm install @big-dev-kit/bc-functions
+````
+
+````js
+import bcHelper from '@big-dev-kit/bc-functions';
+let name = bcHelper.getCustomerName(id);
+````
+
+````js
 <script src="path/to/bc-functions.min.js"></script>
 <script>
   var name = bcHelper.getCustomerName(id);
@@ -16,15 +23,10 @@ TODO npm install
 </script>
 ````
 
-````
+````js
 const bcHelper = require('@big-dev-kit/bc-functions');
 let name = bcHelper.getCustomerName(id);
 // Use the bcHelper functions
-````
-
-````
-import bcHelper from '@big-dev-kit/bc-functions';
-let name = bcHelper.getCustomerName(id);
 ````
 
 

@@ -1,0 +1,20 @@
+{
+  "name": "@big-dev-kit/bc-functions",
+  "version": "0.0.1",
+  "description": "a package provides a function collection",
+  "main": "src/index.js",
+  "module": "dist/bc-functions.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --config webpack.config.js"
+  },
+  "engines": {
+    "node": ">=14.0.0 <19.0.0"
+  },
+  "author": "Neal",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
